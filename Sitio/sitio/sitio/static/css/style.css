@@ -14,7 +14,11 @@ font-family: 'Inter', sans-serif;
 font-weight: 700;
 font-family: 'Inter', sans-serif;
 font-size: 60px;
+<<<<<<< HEAD
 color: red;
+=======
+color: #ce3131;
+>>>>>>> 66db0e4ec702a6cf79a4268ea0df67c42716db86
 text-align: center;
 }
 .overlay{
