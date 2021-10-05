@@ -31,7 +31,7 @@ color:var(--negro);
 a{
   font-size: 18px;
   font-weight: 500;
-  color: #5a5a5a;
+  color: red;
 }
 a:hover{
   text-decoration: none;
