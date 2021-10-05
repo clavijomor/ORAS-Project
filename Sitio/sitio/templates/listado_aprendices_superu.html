@@ -1,0 +1,126 @@
+{% load static %}
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&amp;display=swap" rel="stylesheet">
+    <link  href='{% static "css/style_lista_de_aprendices.css" %}' rel="stylesheet">
+   
+    <title>Lista de aprendices</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg  navbar-light ">
+      <div class="container">
+        <a class="navbar-brand"><img src="{% static 'img/1.png' %}" class="logo-brand"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:8000/instructor_vista_Uno" id="home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:8000/" id="usar">Cerrar Sesion</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><main>
+      <div class="container"><br><br>
+          <h3>Listado de aprendices</h3>
+          <p class="text-muted text-parr">Acá puedes visualizar el listado completo, actualizado y ordenado de los aprendices pertenecientes a la ficha</p><br>
+        <div class="row">
+          <div class="col-12">
+            <section class="section-table">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Tipo Documento</th>
+                      <th scope="col">Num Documento</th>
+                      <th scope="col">Primer Nombre</th>
+                      <th scope="col">Segundo Nombre</th>
+                      <th scope="col">Primer Apellido</th>
+                      <th scope="col">Segundo Apellido</th>
+                      <th scope="col">Email</th>
+                      <th scope="col">Jornada</th>
+                      <th scope="col">Trimestre</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>CC</td>
+                      <td>1008646872</td>
+                      <td>Brandon</td>
+                      <td>-</td>
+                      <td>Peña</td>
+                      <td>Contreras</td>
+                      <td>b@misena.edu.co</td>
+                      <td>Diurna</td>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                      <td>CC</td>
+                      <td>1006541359</td>
+                      <td>Laura</td>
+                      <td>María</td>
+                      <td>Fernadez</td>
+                      <td>Sanchez</td>
+                      <td>flau@misena.edu.co</td>
+                      <td>Nocturna</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>CC</td>
+                      <td>1008434649</td>
+                      <td>Kevin</td>
+                      <td>-</td>
+                      <td>Prez</td>
+                      <td>Castillos</td>
+                      <td>kperez@misena.edu.co</td>
+                      <td>Nocturna</td>
+                      <td>4</td>
+                    </tr>
+                  </tbody>
+                </table><br>
+                <a class="btn btn-outline-primary w-25" href="http://127.0.0.1:8000/listado_novedades_superu">Cancelar</a>
+                <a href="http://127.0.0.1:8000/instructor_vista_Uno">Volver</a>
+            </section>
+          </div>
+        </div><br><br>
+        <div class="row">
+          <div class="col-6">
+              <div class="card img-fluid" style="width:100%">
+                <img class="card-img-top" src="https://i2.wp.com/elpilon.com.co/wp-content/uploads/2020/09/sena.jpg?fit=800%2C533&ssl=1" alt="Card image" style="width:100%">
+                <div class="card-img-overlay section-group">
+                  <h3 class="card-title text-white">Aprendices</h3>
+                  <p class="card-text text-white">Actualmente, la ficha cuenta con 21 aprendices en estado de formación.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-6">
+            <div class="card img-fluid" style="width:100%">
+              <img class="card-img-top" src="https://www.sena.edu.co/es-co/Noticias/NoticiasImg/El-SENA-tiene-abiertas-inscripciones.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay section-group">
+                <h3 class="card-title text-white">Proyectos formativos</h3>
+                <p class="card-text text-white w-75">Actualmente, la ficha cuenta con cuatro proyectos formativos.</p>
+              </div>
+            </div>
+          </div>
+        </div><br>
+      </div>
+    </main>
+<br>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
