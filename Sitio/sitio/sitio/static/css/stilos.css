@@ -68,3 +68,14 @@
   color: #fff;
   text-decoration: none;
 }
+@media(max-width:670px){
+  .text-register{
+    font-size: 28px;
+  }
+  .form-section{
+    padding: 22px;
+  }
+  .boton-form{
+    width: 45%;
+  }
+}

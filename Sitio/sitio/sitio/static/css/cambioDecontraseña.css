@@ -27,6 +27,25 @@ max-width: 80px;
   background-color: #03989e;
   color: #fff;
 }
+.section-botons{
+  margin-top: 3rem;
+}
 hr{
   width: 50%;
+}
+@media(max-width:670px){
+  .change-password{
+    font-size: 22px;
+  }
+  .text-read{
+    font-size: 15px;
+  }
+  .section-password{
+    padding: 25px;
+  }
+  a.boton-password{
+   color: #000; 
+   display: flex;
+   justify-content: center;
+  }
 }

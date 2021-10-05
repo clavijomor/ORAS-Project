@@ -66,4 +66,21 @@ border-radius: 0.4rem;
  border-left: 4px solid green; 
  border-radius: 0.4rem;
 }
-
+@media(max-width: 670px){
+  a{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-aprendiz{
+    border: none !important;
+  }
+  .texto-instructivo{
+    font-size: 18px;
+  }
+  .section-inters{
+    box-shadow: 0px 0px 5px 1px #0000004d;
+    background-color: #fff;
+  }
+}

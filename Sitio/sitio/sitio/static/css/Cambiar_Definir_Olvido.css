@@ -31,13 +31,11 @@ h1,h2, h4{
   background:var(--azul-turquesa);
   color:var(--negro);
 }
-
 .rt{
   font-family: sans-serif;
   line-height: 30px;
   font-size: 20px;
-  letter-spacing: 0px;
-  color:#636363
+  color: #636363;
 }
 .form-answer{
   padding: 30px;
@@ -82,4 +80,27 @@ height:10em ;
 }
 p{
   font-weight: 400;
+}
+@media(max-width: 670px) {
+  .rt{
+    font-size: 15px;
+    width: 95% !important;
+    line-height: 20px;
+  }
+  .text-help{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  .text-question{
+    font-size: 17px;
+  }
+  .text-q{
+    font-size: 14px;
+  }
+  a.boton-form{
+    color: #000;
+    font-weight: 400;
+    width: 30%;
+  }
 }
