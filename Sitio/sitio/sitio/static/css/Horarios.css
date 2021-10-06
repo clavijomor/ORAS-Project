@@ -86,3 +86,11 @@ background-color:var(--coll) ;
   box-shadow: 0px 0px 8px -1px #00000052;
   border-radius: 0.6rem;
 }
+@media(max-width: 675px){
+  .text-semana{
+    font-size: 15px;
+  }
+  .text-horario{
+    width: 100% !important;
+  }
+}

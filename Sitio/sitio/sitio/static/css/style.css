@@ -36,3 +36,24 @@ text-align: center;
 	background-color: #03989e;
 	color: #fff;
 }
+@media(max-width: 670px){
+	.text-project{
+		font-size: 38px;
+	}
+	.text-sistem{
+		font-size: 14px;
+	}
+	.text-question{
+		margin-top: -1rem;
+		font-size: 25px;
+	}
+	.text-register{
+		font-size: 14px;
+	}
+	.mini-tercero{
+		margin-top: 3rem;
+	}
+	.mini-segundo{
+		margin-top: 3rem;
+	}
+}

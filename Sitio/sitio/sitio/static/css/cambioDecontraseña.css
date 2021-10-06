@@ -27,6 +27,9 @@ max-width: 80px;
   background-color: #03989e;
   color: #fff;
 }
+.form-password{
+  border-radius: 0;
+}
 .section-botons{
   margin-top: 3rem;
 }
@@ -47,5 +50,13 @@ hr{
    color: #000; 
    display: flex;
    justify-content: center;
+  }
+  .boton-cancel{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .form-password{
+    border-radius: 0;
   }
 }

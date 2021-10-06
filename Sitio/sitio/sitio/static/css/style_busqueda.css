@@ -1,33 +1,46 @@
 .pantallaUno{
-  background-color:var(--coll) ;
- 
- }
+background-color:var(--coll) ;
+
+}
 
 .navbar {
-  background-color: #03989e;
-  min-height: 80px;
+background-color: #03989e;
+min-height: 80px;
 }
 
 .nav-link { color: #ececec; }
 .nav-link:hover {color:#826b86}
 
 .logo-brand { 
-  min-width: 150px;
-  max-width: 80px;
+min-width: 150px;
+max-width: 80px;
 }
 h1,h2,h3 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  color: #1a1a1a;
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+font-size: 40px;
+color: #1a1a1a;
 }
 .bg-dark {background-color:#826b86 !important;
-  width: 100% !important;
-  padding: 0.5px !important;
+width: 100% !important;
+padding: 0.5px !important;
 }
 .section-formul{
-  
-	box-shadow: 0px 0px 8px -1px #00000052;
-	border-radius: 0.5rem;
-  background-color: #fff;
+box-shadow: 0px 0px 8px -1px #00000052;
+border-radius: 0.5rem;
+background-color: #fff;
+}
+@media(max-width:720px){
+  .text-consult{
+    font-size: 25px;
+  }
+  .text-ingr{
+    font-size: 15px;
+    font-weight: 400;
+    color: #818181 !important;
+  }
+  .section-botons{
+    display: flex;
+    justify-content: space-evenly;
+  }
 }

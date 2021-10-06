@@ -25,3 +25,5 @@ max-width: 80px;
 	flex-direction: column;
 	justify-content: flex-end;
 }
+@media(max-width: 720px){
+}

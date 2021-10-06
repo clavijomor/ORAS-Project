@@ -78,4 +78,17 @@
   .boton-form{
     width: 45%;
   }
+  .text-sistem{
+    font-size: 28px;
+    margin-left: 0 !important;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .form-email{
+    width: 100% !important;
+    border-radius: 0;
+  }
+  .boton-help{
+    margin-top: 1rem;
+  }
 }

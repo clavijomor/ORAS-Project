@@ -59,4 +59,12 @@ background-color:var(--coll) ;
     font-size: 15px;
     width: 95% !important;
   }
+  .section-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .text-search{
+    font-size: 12px;
+  }
 }
