@@ -67,4 +67,31 @@
   background-color: #0097A7;
   color: #fff;
   text-decoration: none;
+<<<<<<< HEAD
+=======
+}
+@media(max-width:670px){
+  .text-register{
+    font-size: 28px;
+  }
+  .form-section{
+    padding: 22px;
+  }
+  .boton-form{
+    width: 45%;
+  }
+  .text-sistem{
+    font-size: 28px;
+    margin-left: 0 !important;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .form-email{
+    width: 100% !important;
+    border-radius: 0;
+  }
+  .boton-help{
+    margin-top: 1rem;
+  }
+>>>>>>> a6624d41bcd28b0e84784ff2661204426464e7b9
 }

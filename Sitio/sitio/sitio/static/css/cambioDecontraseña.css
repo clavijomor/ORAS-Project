@@ -27,6 +27,41 @@ max-width: 80px;
   background-color: #03989e;
   color: #fff;
 }
+<<<<<<< HEAD
 hr{
   width: 50%;
+=======
+.form-password{
+  border-radius: 0;
+}
+.section-botons{
+  margin-top: 3rem;
+}
+hr{
+  width: 50%;
+}
+@media(max-width:670px){
+  .change-password{
+    font-size: 22px;
+  }
+  .text-read{
+    font-size: 15px;
+  }
+  .section-password{
+    padding: 25px;
+  }
+  a.boton-password{
+   color: #000; 
+   display: flex;
+   justify-content: center;
+  }
+  .boton-cancel{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .form-password{
+    border-radius: 0;
+  }
+>>>>>>> a6624d41bcd28b0e84784ff2661204426464e7b9
 }
