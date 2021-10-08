@@ -1,0 +1,75 @@
+{% load static %}
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="{%static 'css/cambioDeContraseña.css' %}" rel="stylesheet">
+    <title>Cambio de contraseña</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand"><img src="{% static 'img/1.png' %}" class="logo-brand"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="home"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="usar"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <main>
+        <div class="container">
+          <span><img class="mx-auto d-block " src="{% static 'img/enginner.png' %}" width="35" alt=""></span>
+          <p class="text-center text-muted">Administrador</p>
+          <hr>
+          <h2 class="text-center change-password">Cambio de contraseña</h2>
+          <div class="text-muted text-center">Escribe aquí para tu cambio de contraseña</div>
+          <br>
+          <div class="row">
+            <div class="col-7 mx-auto d-block">
+              <section class="section-password">
+                <div class="form-group">
+                  <label for="usr"><h5>Contraseña actual</h5></label>
+                  <input type="password" class="form-control form-password" id="usr" name="username">
+                </div><br>
+                <div class="form-group">
+                  <label for="pwd"><h5>Contraseña nueva</h5></label>
+                  <input type="password" class="form-control form-password" id="pwd" name="password">
+                </div><br>
+                <div class="form-group">
+                  <label for="pwd"><h5>Confirmar contraseña</h5></label>
+                  <input type="password" class="form-control form-password" id="pwd" name="password">
+                </div>
+                <a class="boton-password" href="http://127.0.0.1:8000/Perfil_sistema_SuperU">Confirmar nueva contraseña</a>
+                <a class="btn text-muted" href="http://127.0.0.1:8000/Perfil_sistema_SuperU">Cancelar y volver</a>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+
+
+    <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   </body>
+</html>

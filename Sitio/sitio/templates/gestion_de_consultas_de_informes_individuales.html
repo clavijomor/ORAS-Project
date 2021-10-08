@@ -1,0 +1,107 @@
+{% load static %}
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href='{% static "css/style_busqueda.css" %}' rel="stylesheet">
+    <title>Gestión de consultas individuales</title>
+  </head>
+  <body class="pantallaUno">
+    <nav class="navbar navbar-expand-lg  navbar-light ">
+      <div class="container">
+        <a class="navbar-brand"><img src="{% static 'img/1.png' %}" class="logo-brand"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:8000/instructor_vista_Uno.html" id="home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:8000/" id="usar">Cerrar sesión</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">          
+                <span><img src="{% static 'img/profile.png' %}" width="35" alt=""></span>
+                <h2>Consultas individuales</h2>
+                <form class="formulario">
+                  <h5 class="text-muted">Ingrese el ID del aprendiz</h5><br>
+                  <div classs="input-container">
+                    <ion-icon name="search"></ion-icon>
+                    <input class="" type="number" placeholder="Documento del aprendiz">
+                  </div>
+                    <br>
+                    <h5 class="">Modulo/ Trimestre 1</h5>
+                      <select class="">
+                        <option values="1">I</option>
+                        <option values="2">II</option>
+                        <option values="3">III</option>
+                        <option values="4">IV</option>
+                    </select>
+                </form>
+                  <br>
+                  <section class="section-formul">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Apellido</th>
+                            <th scope="col">ficha</th>
+                            <th scope="col">Cod registro asistencia</th>
+                            <th scope="col">Fecha</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col">Novedad</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Brandon</td>
+                            <td>Peña</td>
+                            <td>2024373</td>
+                            <td>2564</td>
+                            <td>05/03/21</td>
+                            <td>NO asistió</td>
+                            <td colspan="2">Excusa médica</td>
+                          </tr>
+                          <tr>
+                            <td>Brandon</td>
+                            <td>Peña</td>
+                            <td>2024373</td>
+                            <td>3655</td>
+                            <td>06/03/21</td>
+                            <td>asistio</td>
+                            <td colspan="2"></td>
+                          </tr>
+                        </tbody>
+                    </table>                
+              </section>
+            <form class="formulario">
+              <div class="container">
+              <a type="submit" class="btn btn-success" href="#">Iniciar busqueda</a>
+              <a type="submit" class="btn btn-danger" href="http://127.0.0.1:8000/GestionDeConsultas">Cancelar</a>
+              </div>
+            </form>
+            <br>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
