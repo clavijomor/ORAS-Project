@@ -34,18 +34,18 @@
         <div class="container"><br><br>      
           <div class="d-flex">
             <span><img src="imagenes/consult.png" width="35" alt=""></span>
-            <h3 class="ml-2">Registro y asistencia</h3>
+            <h3 class="">Registro y asistencia</h3>
           </div>
-          <p class="text-muted">Permite registrar tu asistencia en cada una de las clases</p>
+          <p class="text-muted">Permite registrar la asistencia de los aprendices de la ficha.</p>
           <div class="row">
-            <div class="col-10">
+            <div class="col-12-sm col-12">
               <section class="table-section">
                 <table class="table">
                   <thead>
                     <tr>
-                      <th>ID DE USUARIO</th>
-                      <th>FECHA DE REGISTRO</th>
-                      <th>NO. DE FICHA</th>
+                      <th class="text-th">ID DE USUARIO</th>
+                      <th class="text-th">FECHA DE REGISTRO</th>
+                      <th class="text-th">NO. DE FICHA</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -62,12 +62,16 @@
                   </tbody>
                 </table>
               </section><br>              
-              <section class="section-buttons">
-                <a href="#">Generar código QR</a>
-                <a class="btn bg-warning" href="http://127.0.0.1:8000/Registro_Manual">Registro manual</a>
-                <a class="btn bg-success text-white" href="http://127.0.0.1:8000/instructor_vista_Uno">Aceptar</a>
-                <a class="btn bg-danger text-white" href="http://127.0.0.1:8000/instructor_vista_Uno">Cancelar</a>
-              </section>
+              <div class="row">
+                <div class="col-12-sm col-12">
+                  <section class="section-buttons">
+                    <a href="#">Código QR</a>
+                    <a class="btn btn-outline-warning text-dark" href="http://127.0.0.1:8000/Registro_Manual">Registro M.</a>
+                    <a class="btn btn-outline-primary" href="http://127.0.0.1:8000/instructor_vista_Uno">Aceptar</a>
+                    <a class="btn bg-danger text-white" href="http://127.0.0.1:8000/instructor_vista_Uno">Volver</a>
+                  </section>
+                </div>
+              </div>
             </div>
           </div>
         </div>

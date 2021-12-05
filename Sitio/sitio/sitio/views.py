@@ -73,8 +73,8 @@ def Perfil_sistema_SuperU(request):
     return render(request,'Perfil_sistema_SuperU.html')
 def recuerda_contraseña_admin(request):
     return render(request,'recuerda_contraseña_admin.html')
-def recuerda_contrasena_aprendiz(request):
-    return render(request,'recuerda_contrasena_aprendiz.html')
+def recuerda_contraseña_aprendiz(request):
+    return render(request,'recuerda_contraseña_aprendiz.html')
 def recuerda_contraseña_instructor(request):
     return render(request,'recuerda_contraseña_instructor.html')
 def Registro_Aprendiz(request):

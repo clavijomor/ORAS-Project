@@ -14,7 +14,7 @@
 .inicio {
   background-color:var(--blanco);
 }
-h1,h2,h3{
+h1,h2,h3,h4{
   font-family: 'Inter', sans-serif;
 }
 .pantallaUno{
@@ -34,4 +34,16 @@ h1,h2,h3{
 	border-radius: 0.5rem;
 	background-color: #fff;
   padding: 30px;
+}
+@media(max-width: 720px){
+  .text-th{
+    font-size: 13px;
+  }
+  .text-obs{
+    font-size: 22px;
+  }
+  .section-buttons{
+    display: flex;
+    justify-content: space-evenly;
+  }
 }

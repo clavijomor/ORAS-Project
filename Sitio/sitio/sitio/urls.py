@@ -48,7 +48,7 @@ urlpatterns = [
     path('Perfil_Sistema_Instructor',views.Perfil_Sistema_Instructor),
     path('Perfil_sistema_SuperU',views.Perfil_sistema_SuperU),
     path('recuerda_contraseña_admin',views.recuerda_contraseña_admin),
-    path('recuerda_contrasena_aprendiz',views.recuerda_contrasena_aprendiz),
+    path('recuerda_contraseña_aprendiz',views.recuerda_contraseña_aprendiz),
     path('recuerda_contraseña_instructor',views.recuerda_contraseña_instructor),
     path('Registro_Aprendiz',views.Registro_Aprendiz),
     path('Registro_Instructor',views.Registro_Instructor),

@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet"/>
     <link href='{% static "css/style_recordar_contraseña.css" %}' rel="stylesheet" />
-    <title>Recordar contraseña</title>
+    <title>Recordar contraseña administrador</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
@@ -33,22 +33,22 @@
     <!--Main-->
     <main>
       <div class="container"><br>
-          <h4 class="text-center text-muted">Vista del administrativo</h4>
+          <h4 class="text-center text-muted text-admin">Vista del administrador</h4>
         <div class="row">
-          <div class="col-9 mx-auto d-block text-center">
+          <div class="col-9-sm mx-auto d-block text-center">
             <section class="form-verification">
-              <h3>Recupera tu contraseña</h3>
-              <p class="text-muted text-center w-75 mx-auto d-block">El aplicativo web ORAS te recordará tu contraseña por medio de tu correo. Por favor, digita tu número de documento para la validación</p>
+              <h3 class="text-password">Recupera tu contraseña</h3>
+              <p class="text-muted text-center w-75 mx-auto d-block text-app">El aplicativo web ORAS te recordará tu contraseña por medio de tu correo. Por favor, digita tu número de documento para la validación</p>
               <img src="imagenes/profile.png" alt="">
-              <input class="form-group text-center" type="number" placeholder="No. de documento"><hr>
+              <input class="form-group text-center form-number" type="number" placeholder="No. de documento"><hr>
               <br>
-              <h3>Correo de confirmación</h3>
-              <p class="text-muted text-center mx-auto d-block w-75">Verifica la bandeja de entrada de tu correo electrónico, esto se usará para enviarte el correo de confirmación</p>
+              <h3 class="text-password">Correo de confirmación</h3>
+              <p class="text-muted text-center mx-auto d-block w-75 text-app">Verifica la bandeja de entrada de tu correo electrónico, esto se usará para enviarte el correo de confirmación</p>
               <img src="imagenes/check.png" alt="">
-              <input type="email" class="form-group text-center" placeholder="Ej. 123@misena.edu.co">              
+              <input type="email" class="form-group text-center form-number" placeholder="Ej. 123@misena.edu.co">              
             </section><br>
-            <a class="btn bg-primary text-white w-25" href="http://127.0.0.1:8000/ingresosAdministrativosORAS">Guardar cambios</a>
-            <a class="btn btn-outline-danger w-25" href="http://127.0.0.1:8000/ingresosAdministrativosORAS">Cancelar y volver</a>
+            <a class="btn bg-primary text-white" href="http://127.0.0.1:8000/ingresosAdministrativosORAS">Guardar cambios</a>
+            <a class="btn btn-outline-danger" href="http://127.0.0.1:8000/ingresosAdministrativosORAS">Cancelar y volver</a>
           </div>
         </div>
       </div>

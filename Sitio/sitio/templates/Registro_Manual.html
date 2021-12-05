@@ -34,19 +34,19 @@
         <div class="container"><br>
           <div class="d-flex">
             <span><img src="imagenes/consult.png" alt=""></span>
-            <h3 class="ml-2">Registro manual</h3>
+            <h3 class="">Registro manual</h3>
           </div>
-          <p class="text-muted w-75">En este espacio se podrá registrar manualmente la asistencia de los aprendices que no cuenten con los medios para usar el sistema</p>
+          <p class="text-muted">En este espacio se podrá registrar manualmente la asistencia de los aprendices que no cuenten con los medios para usar el sistema</p>
           <div class="row">
-            <div class="col-10">
+            <div class="col-11-sm">
               <section class="table-section">
                 <table class="table">
                   <thead>
                     <tr>
-                      <th>ID DE REGISTRO</th>
-                      <th>FECHA DE REGISTRO</th>
-                      <th>ID DE USUARIO</th>
-                      <th>ESTADO DE ASISTENCIA</th>
+                      <th class="text-th">ID DE REGISTRO</th>
+                      <th class="text-th">FECHA DE REGISTRO</th>
+                      <th class="text-th">ID DE USUARIO</th>
+                      <th class="text-th">ESTADO DE ASISTENCIA</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -60,7 +60,7 @@
                         </select>
                       </td>
                       <td>
-                        <select class="form-control w-75" id="sel1" name="sellist1">
+                        <select class="form-control" id="sel1" name="sellist1">
                           <option>Asistió</option>
                           <option>No asistió</option>
                           <option>Inasistencia justificada</option>
@@ -69,12 +69,14 @@
                     </tr>                   
                   </tbody>
                 </table>
-                <h4>Observación</h4>
+                <h4 class="text-obs">Observación</h4>
                 <p>El aprendiz no cuenta con los recursos para el uso del sistema</p>
               </section>
               <br>              
-              <a class="btn btn-success" href="http://127.0.0.1:8000/Registro_Instructor">Guardar</a>
-              <a class="btn btn-outline-danger" href="http://127.0.0.1:8000/Registro_Instructor">Cancelar</a>
+              <section class="section-buttons">
+                <a class="btn btn-outline-primary" href="http://127.0.0.1:8000/Registro_Instructor">Guardar</a>
+                <a class="btn btn-outline-danger" href="http://127.0.0.1:8000/Registro_Instructor">Cancelar</a>
+              </section>
             </div>
           </div>
         </div>
