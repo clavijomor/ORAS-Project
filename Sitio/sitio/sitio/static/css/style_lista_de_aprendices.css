@@ -24,6 +24,9 @@ max-width: 80px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+<<<<<<< HEAD
+=======
 }
 @media(max-width: 720px){
+>>>>>>> a6624d41bcd28b0e84784ff2661204426464e7b9
 }

@@ -27,6 +27,10 @@ max-width: 80px;
   background-color: #03989e;
   color: #fff;
 }
+<<<<<<< HEAD
+hr{
+  width: 50%;
+=======
 .form-password{
   border-radius: 0;
 }
@@ -59,4 +63,5 @@ hr{
   .form-password{
     border-radius: 0;
   }
+>>>>>>> a6624d41bcd28b0e84784ff2661204426464e7b9
 }

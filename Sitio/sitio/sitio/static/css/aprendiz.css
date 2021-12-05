@@ -31,7 +31,11 @@ color:var(--negro);
 a{
   font-size: 18px;
   font-weight: 500;
+<<<<<<< HEAD
+  color: #5a5a5a;
+=======
   text-align: center;
+>>>>>>> a6624d41bcd28b0e84784ff2661204426464e7b9
 }
 a:hover{
   text-decoration: none;
@@ -65,6 +69,8 @@ border-radius: 0.4rem;
 .carta-four{
  border-left: 4px solid green; 
  border-radius: 0.4rem;
+<<<<<<< HEAD
+=======
 }
 @media(max-width: 700px){
   a{
@@ -84,4 +90,5 @@ border-radius: 0.4rem;
     box-shadow: 0px 0px 5px 1px #0000004d;
     background-color: #fff;
   }
+>>>>>>> a6624d41bcd28b0e84784ff2661204426464e7b9
 }

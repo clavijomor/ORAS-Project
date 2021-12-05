@@ -60,6 +60,8 @@ h2{
   color: #000 !important;
   text-decoration: none;
 }
+<<<<<<< HEAD
+=======
 @media(max-width:720px){
   .text-login{
     font-size: 24px;
@@ -68,3 +70,4 @@ h2{
     width: 100% !important;
   }
 }
+>>>>>>> a6624d41bcd28b0e84784ff2661204426464e7b9
