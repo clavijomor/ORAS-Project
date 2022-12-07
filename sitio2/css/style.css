@@ -1,0 +1,35 @@
+html{
+    box-sizing: border-box;/*cuando se agrega width y luego un pading, no modifique el tamaño iriginal */
+    font-size: 62.5%;/*1 REM === 10PX*/
+}
+*,*:before, *:after{
+    box-sizing: inherit;/*Permite modificar el tamaño corretamente*/
+}
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700px;
+    font-size: 1.6rem;
+    line-height: 2;/*Interlineado */
+}
+
+
+.nombre-sitio{
+    text-align: center;
+}
+
+/*NAVEGACION*/
+.navegacion-principal{
+display: flex;
+}
+
+.contenedor-navegacion{
+    border-top: 1px solid rgb(185, 15, 15);
+    background-color: aqua;
+    padding: 0.3rem;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin-inline:auto ;
+}
